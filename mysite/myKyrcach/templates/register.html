@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="logAndRegStyle.css">
+    <title>Blog - главная</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo header-item"> 
+                <h1>Blog</h1>
+            </div>
+            <div class="search header-item">
+                <input type="text" placeholder="поиск" class="search-field">
+            </div>
+            <div class="profile header-item">
+                <div class="reg-and-login" id="profile-btn">
+                    <a href="#" class="logIn">Войти</a>
+                    <a href="#" class="register">Регестрация</a>  
+                </div>
+
+                <div class="gamburger" id="gamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div> 
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h2>Регистрация аккаунта</h2> 
+        <form method="post" class="register-form">
+            <label for="email">Укажите вашу почту</label>
+            <input type="email" name="email" placeholder="почта">
+            
+            <label for="login">Придумайте уникальный логин</label>
+            <input type="text" name="login" placeholder="лоигн">
+
+            <label for="name">Ваше имя</label>
+            <input type="text" name="name" placeholder="имя">
+
+            <label for="pass">Придумает пароль (минимум 8 символов)</label>
+            <input type="password" placeholder="пароль">
+            
+            <input type="submit">
+        </div>
+    </main>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html> 
